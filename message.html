@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Message me</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   </head>
+   <style type="text/css">
+      body{
+      margin: auto;
+      font-family: 'Montserrat', sans-serif;
+      }
+      nav.close_button {
+      display: flex;
+      justify-content: end;
+      margin: 20px;
+      }
+      .message_logo{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 95px;
+      }
+      .message_logo img{
+      width: 10%;
+      border-radius: 50%;
+      }
+      .message_intro {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #5D5D5D;
+      }
+      .container {
+      text-align: center;
+      }
+      button.btn.btn-light {
+      margin-top: 20px;
+      background: #5D5D5D;
+      color: white;
+      border-radius: 50px;
+      }
+      .name, .email{
+        margin: 10px;
+      }
+      .mainmessage {
+    display: flex;
+    justify-content: center;
+}
+.name_email{
+  width: 100%;
+}
+.message_section h3 {
+    color: #5D5D5D;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+}
+button.btn.btn-light:hover {
+    background: white;
+    border: solid;
+    border-color: #5D5D5D;
+    color: #5D5D5D;
+}
+input[type="submit"] {
+    background: #606060;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+   </style>
+   <body>
+      <nav class="close_button">
+         <button type="button" class="btn-close" aria-label="Close"></button>
+      </nav>
+      <br>
+      <hr>
+      <div class="message_logo"><img src="./images/emoji.jpg"></div>
+      <div class="message_intro">
+         <h2>Thanks for taking the time to reach out. <br>How can I help you today?</h2>
+      </div>
+      <form action="mailto:gowtampaul16698@gmail.com" method="post" enctype="text/plain">
+        <div class="message_section">
+         <div class="name_email" style="display: flex; justify-content: center;  ">
+            <div class="name">
+               <h3>Name</h3>
+               <input type="Text" name="Yourname" size="31">
+            </div>
+            <div class="email">
+               <h3>Email</h3>
+               <input type="email" name="Youremail" size="31">
+            </div>
+         </div>
+         <div class="mainmessage">
+           <div class="message">
+             <h3>Your message</h3>
+             <textarea rows="5" cols="65" name="YourMessage"></textarea>
+           </div>
+         </div>
+      </div>
+      <div class="submit">
+        <input type="submit" name="">
+      </div>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
+</html>
