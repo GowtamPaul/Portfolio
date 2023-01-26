@@ -331,6 +331,12 @@ justify-content: center;
     display: block;
     width: 100%;
 }
+    .languages_img > div {
+    width: 100%;
+}
+    .tools > div {
+    width: 100%;
+}
 .devtools h4 {
     width: 100%;
     font-size: 15px;
